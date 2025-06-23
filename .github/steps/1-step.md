@@ -111,7 +111,7 @@ Before we dive into MCP, let's start up our development environment and refamili
            "--rm",
            "-e",
            "GITHUB_PERSONAL_ACCESS_TOKEN",
-           "ghcr.io/github/github-mcp-server:v0.1.1"
+           "ghcr.io/github/github-mcp-server:v0.5.0"
          ],
          "env": {
            "GITHUB_PERSONAL_ACCESS_TOKEN": "${input:github_token}"
@@ -150,11 +150,11 @@ Before we dive into MCP, let's start up our development environment and refamili
 
    ![image](https://github.com/user-attachments/assets/33195908-affe-488f-afef-e759498d1fe8)
 
-1. In the Copilot side panel, click the **🛠️ Select Tools...** icon to show the additional capabilities.
+1. In the Copilot side panel, click the **🛠️ icon** to show the additional capabilities.
 
-   <img width="250" alt="image" src="https://github.com/user-attachments/assets/95af044c-3f26-4f5c-b933-7630db72eb67" />
+   <img width="350" alt="image" src="https://github.com/user-attachments/assets/b1be8b80-c69c-4da5-9aea-4bbaa1c6de10" />
 
-   <img width="250" alt="image" src="https://github.com/user-attachments/assets/99178d1b-adbe-4cf4-ab9c-3a4d29918a13" />
+   <img width="350" alt="image" src="https://github.com/user-attachments/assets/99178d1b-adbe-4cf4-ab9c-3a4d29918a13" />
 
 1. **Commit** and **push** the `.vscode/mcp.json` file to the `main` branch.
 
